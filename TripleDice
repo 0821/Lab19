@@ -1,0 +1,4 @@
+public class TripleDice extends Dice {
+  private static 
+
+}
