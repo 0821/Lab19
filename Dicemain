@@ -1,0 +1,20 @@
+public class Dicemain {
+  public static void main(String[] args) {
+  	Dice D1 = new Dice();
+  	Dice D2 = new Dice();
+  	
+  	D1.RollDice();
+  	D1.RollDice();
+  	D2.RollDice();
+  	D2.RollDice();
+  	D2.RollDice();
+  	D2.RollDice();
+  	D2.RollDice();
+  	System.out.printf("%d\n", D1.RollCount());
+  	System.out.printf("%d\n", D1.RollCount());
+  	
+  	System.out.printf("%d\n ", D2.RollCount() );
+  	
+  	
+  }
+}
